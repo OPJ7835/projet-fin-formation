@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(117, 117, 238);
+    padding: 50px 0;
+    color: aliceblue;
+    word-spacing: 5px;
+}
+.head{ /*fixaction de l'entete*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Pour s'assurer qu'elle est au-dessus du reste du contenu */
+}
+
+
+nav{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(78, 77, 77);
+    padding: 15px 0;
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+    padding-left: 20px;
+    gap: 50px;
+    font-size: 20px;
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.Album{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 100px;
+}
+.Album img{
+    width: 300px;
+    height: auto;
+}
+main{
+    padding-top: 100px;
+}
+
+.foot {
+    font-size: 30px;
+    padding-top: 20px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+} 
+.foots {
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    word-spacing: 5px;
+    padding: 5px 0;
+}
+
+footer{
+    background-color: rgb(116, 97, 97);
+    margin-top: 50px;
+}
+.foot a {
+    color: white; /* Couleur par défaut des icônes */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.foot a:hover {
+    color: #0077b5; /* Bleu pour LinkedIn ou autre couleur au survol */
+}
+.foo{
+    padding-left: 30px;
+    font-size: 18px;
+    color: white;
+}
